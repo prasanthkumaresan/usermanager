@@ -1,0 +1,44 @@
+.addform-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+@media (min-width: 600px){
+    .addform-container{
+        min-width: 450px;
+    }
+}
+.form-name{
+    padding: 7px 10px 7px 4px;
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-header{
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+.formsubmit-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 80px;
+    height: 30px;
+}
+.form-error{
+    color: red;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    margin: 0;
+}
